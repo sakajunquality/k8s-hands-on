@@ -23,6 +23,19 @@ docker container run --rm -it \
 - Password: `sakajunquality`
 - follow the instruction on notebooks
 
+## Notebooks
+
+- [00 Environment Check](./00_check.ipynb)
+- [01 Introduction to Docker](./01_introduction_to_docker.ipynb)
+- [02-A Introduction to Google Kubernetes Engine (GKE)](./02a_introduction_to_gke.ipynb)
+- 02-B Introduction to Amazon Elastic Container Service for Kubernetes (EKS)
+- 03 Introduction to Kubernetes
+- [04 Kubernetes First Deployment](04_k8s_first_deployment.ipynb)
+- 05 Kubernetes Rolling Update
+- 06 Kubernetes Advanced
+- [99-A GKE Clean up](./99a_gke_clean_up.ipynb)
+- 99-B EKS Clean up
+
 ## Clean up
 
 ```bash
