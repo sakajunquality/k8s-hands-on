@@ -25,15 +25,15 @@ docker container run --rm -it \
 
 ## Notebooks
 
-- [00 Environment Check](./00_check.ipynb)
-- [01 Introduction to Docker](./01_introduction_to_docker.ipynb)
-- [02-A Introduction to Google Kubernetes Engine (GKE)](./02a_introduction_to_gke.ipynb)
+- [00 Environment Check](./notebooks/00_check.ipynb)
+- [01 Introduction to Docker](./notebooks/01_introduction_to_docker.ipynb)
+- [02-A Introduction to Google Kubernetes Engine (GKE)](./notebooks/02a_introduction_to_gke.ipynb)
 - 02-B Introduction to Amazon Elastic Container Service for Kubernetes (EKS)
 - 03 Introduction to Kubernetes
-- [04 Kubernetes First Deployment](04_k8s_first_deployment.ipynb)
+- [04 Kubernetes First Deployment](./notebooks/04_k8s_first_deployment.ipynb)
 - 05 Kubernetes Rolling Update
 - 06 Kubernetes Advanced
-- [99-A GKE Clean up](./99a_gke_clean_up.ipynb)
+- [99-A GKE Clean up](./notebooks/99a_gke_clean_up.ipynb)
 - 99-B EKS Clean up
 
 ## Clean up
