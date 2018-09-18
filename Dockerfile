@@ -65,6 +65,7 @@ WORKDIR /root/notebook
 ADD config/notebooks/jupyter_notebook.py /root/.jupyter/jupyter_notebook_config.py
 ADD notebooks /root/notebook
 ADD app /root/notebook/app
+ADD k8s /root/notebook/k8s
 
 VOLUME /root/config
 CMD ["tini", "--", "jupyter", "notebook"]

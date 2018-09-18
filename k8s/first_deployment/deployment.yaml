@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    name: k8s-first-app
+  name: k8s-first-app
+  namespace: k8s-hands-on
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        name: k8s-first-app
+    spec:
+      containers:
+      - name: app
+        image: gcr.io/YOUR PROJECT_ID/k8s-hands-on:v1
+        ports:
+          - name: app
+            containerPort: 8888
