@@ -45,5 +45,5 @@ docker container run --rm -it \
 ## Clean up
 
 ```bash
-docker volume rm k8s-hands-on%
+docker volume rm k8s-hands-on
 ```
