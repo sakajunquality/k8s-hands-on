@@ -1,5 +1,11 @@
 # k8s-hands-on
 
+Interactive Kubernetes Hands-on on Jupyer Notebook
+
+![image](./image.png)
+
+![image2](./image2.png)
+
 ## How to start
 
 ### Create volume
